@@ -62,7 +62,7 @@ ul li a:hover{
 
 .form{
     width: 350px;
-    height: 480px;
+    height: 450px;
     background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
     margin-left: 500px;
     font-family: sans-serif;
@@ -75,17 +75,6 @@ ul li a:hover{
 
 }
 
-.form h2{
-    width: 220px;
-    font-family: sans-serif;
-    text-align: center;
-    color: #084C16;
-    font-size: 22px;
-    background-color: #fff;
-    border-radius: 10px;
-    margin: 2px;
-    padding: 8px;
-}
 
 .form input{
     width: 240px;
@@ -102,12 +91,8 @@ ul li a:hover{
     font-family: sans-serif;
 }
 
-.form input:focus{
-    outline: none;
-}
 
-
-.btnn{
+.btn{
     width: 240px;
     height: 40px;
     background: #084C16;
@@ -119,11 +104,11 @@ ul li a:hover{
     color: #fff;
     transition: 0.4s ease;
 }
-.btnn:hover{
+.btn:hover{
     background: #fff;
     color: #084C16;
 }
-.btnn a{
+.btn a{
     text-decoration: none;
     color: #000;
     font-weight: bold;
@@ -138,4 +123,3 @@ ul li a:hover{
     text-decoration: none;
     color: #084C16;
 }
-
